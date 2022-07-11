@@ -9,6 +9,7 @@ https://templatemo.com/tm-526-vanilla
 p {
   font-size: 15px;
   line-height: 25px;
+  text-align: justify;
 }
 
 section {
@@ -53,14 +54,17 @@ a:hover { color: #FF0; }
   padding: 2px 12px;
   border-radius: 15px;
 }
+
 .fixed-side-navbar .nav > li a.active {
   background-color: transparent;
   color: black;
 }
+
 .fixed-side-navbar .nav > li a.active:after {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
+
 .fixed-side-navbar .nav > li a.active:before {
   content: '';
   position: absolute;
@@ -73,6 +77,7 @@ a:hover { color: #FF0; }
   border: 2px solid #fff;
   border-radius: 10px;
 }
+
 .nav>li {
   position: relative;
   display: block;
@@ -84,11 +89,13 @@ a:hover { color: #FF0; }
   padding: 5px 45px 5px 25px;
   border-right: none;
 }
+
 .fixed-side-navbar .nav > li a span {
   display: none;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
+
 .fixed-side-navbar .nav > li a:after {
   content: '';
   position: absolute;
@@ -104,6 +111,7 @@ a:hover { color: #FF0; }
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
+
 .fixed-side-navbar .nav > li a:hover {
   background-color: transparent;
   border-top-left-radius: 5px;
@@ -111,6 +119,7 @@ a:hover { color: #FF0; }
   border-color: black;
   boder-right: 0;
 }
+
 .fixed-side-navbar .nav > li a:hover > span {
   color: black;
   display: block;
@@ -121,12 +130,11 @@ a:hover { color: #FF0; }
           animation-name: fadeInRight;
 }
 
-
 .primary-button a {
   display: inline-block;
   background-color: #ff7d27;
   padding: 15px 24px;
-  border-radius: 3px;
+  border-radius: 4px;  /**************** propridade radius do button subir - loc. footer *****************/
   text-transform: uppercase;
   font-size: 11px;
   color: #fff;
@@ -175,8 +183,6 @@ a:hover { color: #FF0; }
 .baner-content .primary-button {
   margin-top: 15px;
 }
-
-
 
 .service-content {
   padding-left: 15px;
@@ -293,7 +299,6 @@ h4, .h4 {
   border-radius: 20px;
   background: #fff;
 }
-
 
 .tabs-content {
   padding-left: 15px;
@@ -422,14 +427,18 @@ section {
   letter-spacing: 0.5px;
 }
 
+.text-placeForm {
+
+  color: #ffffff;
+
+}
+
 .map {
   margin-bottom: 30px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 30px 20px;
 }
-
-
 
 footer {
   text-align: center;
